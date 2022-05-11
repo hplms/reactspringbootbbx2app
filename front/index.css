@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.new-item-form {
+  display: flex;
+  margin: 20px;
+  background-color: #008080;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+  height: 400px;
+  padding: 35px 40px;
+  align-items: center;
+  animation: eMLfYp 300ms linear;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.new-item-input {
+  display: block;
+  padding: 0.5%;
+}
+ 
+ .item-button {
+  background-color: #008080;
+  border: none;
+  color: white;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.item-button:hover{
+  background-color: #016b6b;
+}
+
+.little-button {
+  background-color: #008080;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.login-wrapper {
+    position: absolute;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+
+.session {
+	position: absolute;
+	top: 95%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
